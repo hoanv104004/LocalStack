@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: notification-service
+  main:
+    web-application-type: none
+
+aws:
+  endpoint: http://localhost:4566
+  region: ap-southeast-1
+  sqs:
+    notification-queue-url: http://localhost:4566/000000000000/transaction-notification
+  ses:
+    from-email: no-reply@bank.local

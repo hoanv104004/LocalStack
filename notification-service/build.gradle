@@ -1,0 +1,7 @@
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'software.amazon.awssdk:sqs'
+    implementation 'software.amazon.awssdk:ses'
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
+}

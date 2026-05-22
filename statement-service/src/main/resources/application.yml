@@ -1,0 +1,12 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: statement-service
+
+aws:
+  endpoint: http://localhost:4566
+  region: ap-southeast-1
+  s3:
+    bucket-name: bank-statements

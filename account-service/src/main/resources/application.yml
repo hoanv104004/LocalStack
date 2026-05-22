@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: account-service
+
+aws:
+  endpoint: http://localhost:4566
+  region: ap-southeast-1

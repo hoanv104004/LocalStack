@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: transaction-service
+
+aws:
+  endpoint: http://localhost:4566
+  region: ap-southeast-1
+  sns:
+    transaction-topic-arn: arn:aws:sns:ap-southeast-1:000000000000:transaction-events
+
+account:
+  service:
+    url: http://localhost:8081
